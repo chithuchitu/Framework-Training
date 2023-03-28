@@ -1,0 +1,393 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-16T17:50:38.927Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33322055100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.precon1()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To validate login functionality with invalid Email address and Invalid Password",
+        "description": "",
+        "id": "validate-login-functionality-of-facebook-application;to-validate-login-functionality-with-invalid-email-address-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 152299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4331264699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 659511300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter invalid username and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enter_invalid_username_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "abc@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "1222222"
+                ]
+              },
+              {
+                "cells": [
+                  "username2",
+                  "greens@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password2",
+                  "4547765765"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2202524800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click Login button",
+            "match": {
+              "location": "StepDefinition.click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10901400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The Invalid credential page will show",
+            "match": {
+              "location": "StepDefinition.the_Invalid_credential_page_will_show()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-16T17:51:19.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13522019600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.precon1()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To validate login functionality with valid Email address and Invalid Password",
+        "description": "",
+        "id": "validate-login-functionality-of-facebook-application;to-validate-login-functionality-with-valid-email-address-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 133201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2576123700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 423893200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter invalid username and valid password",
+            "match": {
+              "location": "StepDefinition.user_enter_invalid_username_and_valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "userid",
+                  "pass"
+                ]
+              },
+              {
+                "cells": [
+                  "greenstech",
+                  "123645",
+                  "selenium",
+                  "java"
+                ]
+              },
+              {
+                "cells": [
+                  "data",
+                  "Testng",
+                  "cucumbe",
+                  "testing"
+                ]
+              },
+              {
+                "cells": [
+                  "javaselenium",
+                  "121454",
+                  "greens@gmail.com",
+                  "122444"
+                ]
+              },
+              {
+                "cells": [
+                  "Cucumber",
+                  "selenium",
+                  "12212",
+                  "455545454"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2125080800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click Login button",
+            "match": {
+              "location": "StepDefinition.click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11013600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The Invalid credential page will show",
+            "match": {
+              "location": "StepDefinition.the_Invalid_credential_page_will_show()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validate login functionality of Facebook Application",
+    "description": "",
+    "id": "validate-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-16T17:51:38.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15977684800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.precon1()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To  validate forgotten password with email or mobile no",
+        "description": "",
+        "id": "to-validate-forgotten-password-functionality-in-facebook-application;to--validate-forgotten-password-with-email-or-mobile-no",
+        "after": [
+          {
+            "result": {
+              "duration": 71399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4445751201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14882300400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the browser and url",
+            "match": {
+              "location": "StepDefinition.launch_the_browser_and_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314747300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Maximize the window",
+            "match": {
+              "location": "StepDefinition.maximize_the_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()\u003d\u0027Forgotten password\u0027]\"}\n  (Session info: chrome\u003d105.0.5195.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027KEERTHI-PC\u0027, ip: \u0027192.168.43.134\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\KEERTHI\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1108e2ab57864ebfed5df08cfa299431\n*** Element info: {Using\u003dxpath, value\u003d//a[text()\u003d\u0027Forgotten password\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat org.baseclass.BaseClass.btnClick(BaseClass.java:40)\r\n\tat org.stepdefinition.StepDefinition.user_click_forgotten_password_buttton(StepDefinition.java:44)\r\n\tat ✽.user click forgotten password buttton(file:src/test/resources/FeatureFiles/forgotfunction.feature:6)\r\n",
+              "duration": 21650902500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user click forgotten password buttton",
+            "match": {
+              "location": "StepDefinition.user_click_forgotten_password_buttton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1412799,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user have to enter email or mobiloe no",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email_or_mobiloe_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "then click the search button",
+            "match": {
+              "location": "StepDefinition.then_click_the_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate forgotten password functionality in facebook application",
+    "description": "",
+    "id": "to-validate-forgotten-password-functionality-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/forgotfunction.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]

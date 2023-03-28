@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="36.548832">
+<testcase classname="To validate forgotten password functionality in facebook application" name="To  validate forgotten password with email or mobile no" time="36.548832">
+<system-out><![CDATA[Given launch the browser and url............................................passed
+And Maximize the window.....................................................passed
+When user click forgotten password buttton..................................passed
+And user have to enter email or mobiloe no..................................passed
+And then click the search button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

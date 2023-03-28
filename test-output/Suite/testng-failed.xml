@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Username" value="Greens"/>
+    <parameter name="Password" value="1234"/>
+    <classes>
+      <class name="testNg.org.Sample">
+        <methods>
+          <include name="aft"/>
+          <include name="befcls"/>
+          <include name="bef"/>
+          <include name="aftcls"/>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- testNg.org.Sample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

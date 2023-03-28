@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-28T18:45:23.144Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16123600800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.precon1()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To  validate forgotten password with email or mobile no",
+        "description": "",
+        "id": "to-validate-forgotten-password-functionality-in-facebook-application;to--validate-forgotten-password-with-email-or-mobile-no",
+        "after": [
+          {
+            "result": {
+              "duration": 269100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon2(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1826400400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postcon1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14986224600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the browser and url",
+            "match": {
+              "location": "StepDefinition.launch_the_browser_and_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273857000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Maximize the window",
+            "match": {
+              "location": "StepDefinition.maximize_the_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2879401700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click forgotten password buttton",
+            "match": {
+              "location": "StepDefinition.user_click_forgotten_password_buttton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191317200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to enter email or mobiloe no",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email_or_mobiloe_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162431400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "then click the search button",
+            "match": {
+              "location": "StepDefinition.then_click_the_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate forgotten password functionality in facebook application",
+    "description": "",
+    "id": "to-validate-forgotten-password-functionality-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/forgotfunction.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
